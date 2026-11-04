@@ -6,6 +6,11 @@ class AgentsPs < Formula
   license "MIT"
   version "0.1.0"
 
+  bottle do
+    root_url "https://github.com/nqhung291/agents-ps/releases/download/v0.1.0"
+    sha256 cellar: :any, arm64_tahoe: "2bd296872a7aa3ce73f03808b26c5ef3bdef9ae82b0fe359a11256d4deab7882"
+  end
+
   depends_on :macos
 
   def install
