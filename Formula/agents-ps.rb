@@ -8,7 +8,8 @@ class AgentsPs < Formula
 
   bottle do
     root_url "https://github.com/nqhung291/agents-ps/releases/download/v0.2.0"
-    sha256 cellar: :any, arm64_tahoe: "f6b64654a1d20e12a8facd32304f1eac259533865a07f6f386fcb6c2e81c901f"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, arm64_tahoe: "c387acfc3cfd3829e6ca9e253465fee9500c2511798106630163166ba1177126"
   end
 
   depends_on :macos
